@@ -42,7 +42,7 @@ terraform plan
 terraform apply -auto-approve
 ```
 
-📸 Evidências do Projeto
+### 📸 Evidências do Projeto
 Abaixo estão as evidências do funcionamento da infraestrutura na AWS no decorrer da sua construção.
 
 1. Aplicação em Execução
