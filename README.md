@@ -1,6 +1,6 @@
 # 🚀 AWS Serverless Architecture: IaC com Terraform & CI/CD
 
-Este projeto demonstra a implementação de uma infraestrutura robusta, escalável e automatizada na AWS para hospedar uma API Node.js. O foco principal é a utilização de **Terraform** para garantir que 100% da infraestrutura seja tratada como código (IaC), permitindo deploys rápidos e consistentes.
+Este projeto demonstra a implementação de uma infraestrutura robusta, escalável e automatizada na AWS para hospedar uma API Node.js. O foco principal é a utilização de **Terraform** para garantir que 100% da infraestrutura seja tratada como código (IaC), permitindo deploys mais rápidos.
 
 ## 🏗️ Arquitetura da Solução
 
