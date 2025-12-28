@@ -40,3 +40,34 @@ Certifique-se de ter o Terraform instalado e as credenciais AWS configuradas no 
 terraform init
 terraform plan
 terraform apply -auto-approve
+
+
+
+📸 Evidências do Projeto
+Abaixo estão as evidências do funcionamento da infraestrutura na AWS no decorrer da sua construção.
+
+1. Aplicação em Execução
+Comprovação da API Node.js rodando em containers ECS Fargate e acessível publicamente através do Application Load Balancer (ALB).
+
+<img width="1877" height="1038" alt="Captura de tela 2025-12-27 201641" src="https://github.com/user-attachments/assets/68bd2be7-cef8-400f-a74d-ca8bffcdaa97" />
+Retorno JSON da API via DNS do Load Balancer.
+
+2. Automação CI/CD
+Evidência do fluxo de Integração Contínua funcionando. O AWS CodeBuild detecta alterações no GitHub, realiza o build da imagem Docker e atualiza o serviço automaticamente.
+
+<img width="1876" height="995" alt="Captura de tela 2025-12-27 202742" src="https://github.com/user-attachments/assets/75f010e7-6141-42e9-ba52-3a5ab9afc2ee" />
+Histórico de builds finalizados com sucesso no console da AWS.
+
+3. Infraestrutura como Código (IaC)
+Demonstração do ciclo de vida dos recursos gerenciados pelo Terraform, garantindo que a infraestrutura seja replicável e organizada.
+
+[COLOQUE AQUI A IMAGEM: Captura de tela 2025-12-27 182823.png] Legenda: Execução do Terraform para provisionamento dos 28 recursos na AWS.
+
+4. Gestão de Recursos e Custos
+Uma das melhores práticas em Cloud é a limpeza de recursos após o uso. Aqui está a evidência da destruição controlada da stack para evitar custos desnecessários.
+
+<img width="1104" height="614" alt="Captura de tela 2025-12-27 204217" src="https://github.com/user-attachments/assets/aace706f-0580-4661-bb14-5edd1ae1c79f" />
+Encerramento seguro de toda a infraestrutura via comando terraform destroy.
+
+
+
