@@ -40,8 +40,7 @@ Certifique-se de ter o Terraform instalado e as credenciais AWS configuradas no 
 terraform init
 terraform plan
 terraform apply -auto-approve
-
-
+```
 
 📸 Evidências do Projeto
 Abaixo estão as evidências do funcionamento da infraestrutura na AWS no decorrer da sua construção.
