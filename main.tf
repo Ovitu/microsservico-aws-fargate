@@ -64,4 +64,3 @@ resource "aws_eip" "nat" {
 
 }
 
-p
