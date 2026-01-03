@@ -61,4 +61,7 @@ resource "aws_subnet" "private" {
 resource "aws_eip" "nat" {
   count  = 2
   domain = "vpc"
+
 }
+
+p
